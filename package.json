@@ -1,0 +1,69 @@
+{
+  "_from": "lightsocks-nodejs",
+  "_id": "lightsocks-nodejs@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-xQZErnwBIucRAJ0VZxdSTlE8t0ziX0BnnTZMrbFnkqc+f0ee+H8Kul4v9A28p/OQI8is3EkaDE+moDxa6HLpVw==",
+  "_location": "/lightsocks-nodejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "lightsocks-nodejs",
+    "name": "lightsocks-nodejs",
+    "escapedName": "lightsocks-nodejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/lightsocks-nodejs/-/lightsocks-nodejs-1.0.3.tgz",
+  "_shasum": "519f66d97e53056a776ce8248ed9a535411c989f",
+  "_spec": "lightsocks-nodejs",
+  "_where": "D:\\360安全浏览器下载\\代理软件\\shadowsocks-heroku-master\\TCP服务",
+  "bin": {
+    "lsserver": "./bin/lsserver.js",
+    "lslocal": "./bin/lslocal.js"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisyer/lightsocks-nodejs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "^2.15.0",
+    "log4js": "^2.5.3",
+    "pkginfo": "^0.4.1",
+    "through2": "^2.0.3",
+    "url-parse-lax": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "It's a simaple socks5 proxy tool which based on lightsocks",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/chrisyer/lightsocks-nodejs#readme",
+  "keywords": [
+    "socks",
+    "socks5",
+    "proxy"
+  ],
+  "license": "MIT",
+  "name": "lightsocks-nodejs",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisyer/lightsocks-nodejs.git"
+  },
+  "scripts": {
+    "local": "node ./bin/lslocal.js",
+    "local:debug": "export NODE_ENV=debug && node ./bin/lslocal.js",
+    "server": "node ./bin/lsserver.js",
+    "server:debug": "export NODE_ENV=debug && node ./bin/lsserver.js",
+    "test": "jest"
+  },
+  "version": "1.0.3"
+}
